@@ -25,13 +25,15 @@ body {
     flex: 0 1 auto;
     align-self: flex-start;
 
-    padding: 10px;
-    width: 95%;
+    width: 100%;
 }
 
 #navMobile {
     display: flex;
     justify-content: space-between;
+
+    padding: 10px;
+    width: calc(100% - 20px);
 }
 #mobileSignInBtn {
     background-color: #4285F4;
