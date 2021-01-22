@@ -49,6 +49,10 @@ a {
     gap: 10px;
 }
 
+.navLinks {
+    font-size: 12px;
+}
+
 #mobileSignInBtn {
     background-color: #4285F4;
     border: none;
