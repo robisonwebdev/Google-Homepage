@@ -46,6 +46,13 @@ body {
     text-decoration: none;
 }
 
+#mobileMenuBtn {
+    color: #4285F4;
+    background-color: white;
+    border: none;
+    font-size: 26px;
+}
+
 #main {
     flex: 0 1 auto;
     align-self: center;
