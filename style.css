@@ -16,13 +16,21 @@ body {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    
+
     height: 100vh;
+    width: auto;
 }
 
 #navbar {
     flex: 0 1 auto;
     align-self: flex-start;
+
+    width: 100%;
+}
+
+#navMobile {
+    display: flex;
+    justify-content: space-between;
 }
 
 #main {
