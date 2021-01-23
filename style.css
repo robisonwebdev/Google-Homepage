@@ -89,8 +89,9 @@ a {
 }
 
 #googleImage {
-    max-width: 100%;
     height: auto;
+    margin-bottom: 25px;
+    max-width: 100%;
 }
 
 #searchField {
