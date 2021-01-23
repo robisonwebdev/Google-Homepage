@@ -167,7 +167,14 @@ a {
         justify-content: space-between;
         align-items: center;
 
-        padding: 10px;
-        width: calc(100% - 20px);
+        padding: 20px;
+        width: calc(100% - 40px);
+    }
+
+    #leftNav, #rightNav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 }
