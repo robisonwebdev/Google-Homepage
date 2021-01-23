@@ -246,7 +246,16 @@ a {
 
     #searchBtns {
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: row;        
+
+        margin-top: 30px;
+    }  
+    
+    #searchBtns button {
+        background-color: #f2f2f2;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 3px;
     }
 }
