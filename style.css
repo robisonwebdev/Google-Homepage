@@ -4,7 +4,7 @@
 }
 
 /* Hidden elements for mobile */
-#navDesktop, #footerDesktopLinks {
+#navDesktop, #footerDesktopLinks, #searchBtns {
     display: none;
 }
 
