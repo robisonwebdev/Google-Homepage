@@ -179,6 +179,10 @@ a {
         gap: 20px;
     }
 
+    .navLinks:hover {
+        text-decoration: underline;
+    }
+
     #moreOptions {
         font-size: 22px;
     }
