@@ -157,7 +157,17 @@ a {
 
 /* Media Query */
 @media only screen and (min-width: 768px) {
-    body {
-        background-color: teal;
+    #navMobile, #footerMobileLinks {
+        display: none;
+    }
+
+    #navDesktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 10px;
+        width: calc(100% - 20px);
     }
 }
