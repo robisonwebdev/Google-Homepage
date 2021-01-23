@@ -4,7 +4,7 @@
 }
 
 /* Hidden elements for mobile */
-#navDesktop, #footerDesktopLinks, #searchBtns {
+#navDesktop, #footerDesktopLinks, #searchBtns, #iconDesktop {
     display: none;
 }
 
@@ -116,7 +116,7 @@ a {
     width: 100%;
 }
 
-#searchBar i {
+#iconMobile {
     background-color: #4285F4;
     border: #d2d2d2;
     border-left: none;
@@ -158,7 +158,7 @@ a {
 
 /* Media Query */
 @media only screen and (min-width: 768px) {
-    #navMobile, #footerMobileLinks {
+    #navMobile, #footerMobileLinks, #iconMobile {
         display: none;
     }
 
@@ -212,5 +212,41 @@ a {
 
     .footerLinks:hover {
         text-decoration: underline;
+    }
+
+    #main {
+        width: 25%;
+    }
+
+    #searchBar {
+        height: 40px;
+    }
+
+    #iconDesktop, #iconMobile {
+        display: inline;
+        background-color: white;
+        border: 1px solid #d2d2d3;
+        border-left: 0;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        color: #666666;
+        padding: 10px;
+        transform: scaleX(-1);
+    }
+
+    #iconMobile {
+        transform: scaleX(1);
+        color: white;
+    }
+
+    #search {
+        border-left: none;
+        height: 36px;
+    }
+
+    #searchBtns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }
