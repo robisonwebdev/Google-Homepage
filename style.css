@@ -71,26 +71,58 @@ a {
 }
 
 #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: 0 1 auto;
     align-self: center;
 
-    width: 100%;
+    width: calc(100% - 20px);
 }
 
 #mainSearch {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    width: 100%;
 }
 
 #searchField {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding: 0 10px;
+    width: 100%;
+}
+
+#searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 30px;
+    width: 100%;
 }
 
 #searchBar i {
+    background-color: #4285F4;
+    border: #d2d2d2;
+    border-left: none;
+    color: white;
+    padding: 8px;
+    text-align: justify;
     transform: scaleX(-1);
+}
+
+#search {
+    border: 1px solid #d2d2d2;
+    border-right: 0;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
 }
 
 #footer {
