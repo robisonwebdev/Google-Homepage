@@ -178,4 +178,8 @@ a {
         align-items: center;
         gap: 20px;
     }
+
+    #moreOptions {
+        font-size: 22px;
+    }
 }
