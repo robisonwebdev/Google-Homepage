@@ -89,6 +89,10 @@ a {
     align-items: center;
 }
 
+#searchBar i {
+    transform: scaleX(-1);
+}
+
 #footer {
     flex: 0 1 auto;
     align-self: flex-end;
